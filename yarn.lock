@@ -113,6 +113,10 @@ array-unique@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
 
+arraydiff@^0.1.1:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/arraydiff/-/arraydiff-0.1.3.tgz#86a5436d7b72f1bdda5fd6d74e8724e42f83ce4d"
+
 arrify@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
@@ -157,6 +161,10 @@ async-retry@0.1.1:
   dependencies:
     babel-runtime "6.5.0"
     retry "0.9.0"
+
+async@^1.4.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
 async@^2.1.2:
   version "2.1.5"
@@ -683,6 +691,10 @@ deep-extend@~0.4.0:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.1.tgz#efe4113d08085f4e6f9687759810f807469e2253"
 
+deep-is@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
+
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
@@ -814,6 +826,10 @@ escape-string-regexp@^1.0.2:
 esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
+
+event-emitter-es6@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/event-emitter-es6/-/event-emitter-es6-1.1.5.tgz#ef95311b2e17aa39be763b031ce4af7ee9cb7849"
 
 events@^1.0.0:
   version "1.1.1"
@@ -1081,6 +1097,10 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   resolved "https://registry.yarnpkg.com/hash.js/-/hash.js-1.0.3.tgz#1332ff00156c0a0ffdd8236013d07b77a0451573"
   dependencies:
     inherits "^2.0.1"
+
+hat@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/hat/-/hat-0.0.3.tgz#bb014a9e64b3788aed8005917413d4ff3d502d8a"
 
 hawk@~3.1.3:
   version "3.1.3"
@@ -1414,6 +1434,10 @@ lodash@^4.14.0, lodash@^4.2.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
+logdown@^2.0.3:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/logdown/-/logdown-2.2.0.tgz#23698490bb0f4eab8e93205c6209d31c06de35b2"
+
 longest@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
@@ -1427,6 +1451,10 @@ loose-envify@^1.0.0:
 lowercase-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.0.tgz#4e3366b39e7f5457e35f1324bdf6f88d0bfc7306"
+
+make-error@^1.1.1:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.2.3.tgz#6c4402df732e0977ac6faf754a5074b3d2b1d19d"
 
 memory-fs@^0.4.0, memory-fs@~0.4.1:
   version "0.4.1"
@@ -1670,6 +1698,10 @@ osenv@^0.1.4:
   dependencies:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
+
+ot-json0@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ot-json0/-/ot-json0-1.0.1.tgz#3edfe7b73bd1f192c0737d332050e23515be354a"
 
 output-file-sync@^1.1.0:
   version "1.1.2"
@@ -1939,6 +1971,10 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
+reconnecting-websocket@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/reconnecting-websocket/-/reconnecting-websocket-3.0.3.tgz#69dcf183da484f1e6c137321a0058bf94423cb58"
+
 regenerator-runtime@^0.10.0:
   version "0.10.3"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.10.3.tgz#8c4367a904b51ea62a908ac310bf99ff90a82a3e"
@@ -2048,6 +2084,26 @@ sha.js@^2.3.6:
   resolved "https://registry.yarnpkg.com/sha.js/-/sha.js-2.4.8.tgz#37068c2c476b6baf402d14a49c67f597921f634f"
   dependencies:
     inherits "^2.0.1"
+
+sharedb-ace@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/sharedb-ace/-/sharedb-ace-0.1.0.tgz#c2d1431ce5a505a903d382227b21dc77a0a6f59b"
+  dependencies:
+    event-emitter-es6 "^1.1.5"
+    logdown "^2.0.3"
+    reconnecting-websocket "^3.0.3"
+    sharedb "^1.0.0-beta.7"
+
+sharedb@^1.0.0-beta.7:
+  version "1.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/sharedb/-/sharedb-1.0.0-beta.7.tgz#82118293db29dd3d781692ae3a39cfdef297b698"
+  dependencies:
+    arraydiff "^0.1.1"
+    async "^1.4.2"
+    deep-is "^0.1.3"
+    hat "0.0.3"
+    make-error "^1.1.1"
+    ot-json0 "^1.0.1"
 
 signal-exit@^3.0.0:
   version "3.0.2"

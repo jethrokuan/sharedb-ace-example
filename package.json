@@ -12,7 +12,8 @@
   "dependencies": {
     "ace": "^1.3.0",
     "babel-cli": "^6.24.0",
-    "babel-loader": "^6.4.1"
+    "babel-loader": "^6.4.1",
+    "sharedb-ace": "^0.1.0"
   },
   "devDependencies": {
     "webpack": "^2.3.0"

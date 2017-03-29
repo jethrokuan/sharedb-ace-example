@@ -1,5 +1,6 @@
 import sharedbAce from "sharedb-ace";
 import SharedbAceRWControl from "sharedb-ace-rw-control/client.js";
+import SharedbAceMultipleCursors from "sharedb-ace-multiple-cursors/client.js";
 
 const editor = ace.edit("editor"); 
 editor.setTheme("ace/theme/twilight");
@@ -31,7 +32,10 @@ get("http://localhost:3000/gists/latest", function(data) {
     namespace: "codepad",
   });
   ShareAce.on('ready', function() {
-    ShareAce.add(editor, ["code"], [ SharedbAceRWControl ]);
+    ShareAce.add(editor, ["code"], [
+      SharedbAceRWControl,
+      SharedbAceMultipleCursors
+    ]);
     ShareAce.add(editor2, ["testcases"], []); 
   });
 })
